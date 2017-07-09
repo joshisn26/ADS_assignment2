@@ -20,14 +20,15 @@
         <div id="nameInput" class="input-group-lg center-block helloInput">
             <p class="lead">Please enter latitude</p>
             <input name="lat" type="text" class="form-control" placeholder="latitude" aria-describedby="sizing-addon1"  />
-			
+			<input name="lon" type="text" class="form-control" placeholder="longitude" aria-describedby="sizing-addon1"  />
 			<button  type="submit" id="check" class="btn btn-lg btn-default" style = "color:black">Submit</button></br>
         </div>
 		</form>
-        <p id="response">{{ pi }}</p>
-
+        <p id="response"> </p>
     </div>
 
 </body>
-
+<script> var counts = {{  pi }};
+document.getElementById("response").innerHTML = JSON.stringify(counts) ;
+ </script>
 </html>

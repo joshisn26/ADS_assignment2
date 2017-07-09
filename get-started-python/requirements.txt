@@ -18,3 +18,5 @@ Werkzeug==0.10.4
 WTForms==2.0.2
 
 pandas==0.19.2
+
+geopy==1.11.0

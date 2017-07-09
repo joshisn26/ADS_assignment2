@@ -15,3 +15,6 @@ docker create --name='containername' vipshah/ads-assignment2:final
 docker start -i containername
 
 This will upload a clean file in Amazon s3 bucket. and it will print done message.
+
+Run rawdataEDA.ipynb file for analysis.
+

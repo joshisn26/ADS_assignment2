@@ -22,7 +22,7 @@ For running application on bluemix:
 
 1)Create an account on bluemix
 
-2)Download setfor fro cf
+2)Download setup for cf
 
 2)Write following commands on command prompt:
 cf login
